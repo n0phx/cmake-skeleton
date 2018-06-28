@@ -1,0 +1,11 @@
+---
+Checks: >
+  *,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  -fuchsia-default-arguments,
+  -fuchsia-overloaded-operator,
+  -llvm-header-guard
+HeaderFilterRegex: '(engine/src/engine/|game/src/game/).*'
+...
+
