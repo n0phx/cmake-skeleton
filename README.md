@@ -1,4 +1,4 @@
-The following tools need to be installed to enable static analyzis of the codebase:
+The following tools need to be installed to enable static analysis of the codebase:
 
 - perl (http://strawberryperl.com/)
 - clang / llvm (http://releases.llvm.org/download.html)
