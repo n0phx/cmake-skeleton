@@ -43,7 +43,7 @@ function(clangtidy_targets)
     endif()
 
     if(NOT CMAKE_EXPORT_COMPILE_COMMANDS OR NOT (CMAKE_GENERATOR MATCHES "Make|Ninja"))
-        message(WARNING "No compilation database available with the selected generator.")
+        message(STATUS "No compilation database available with the selected generator.")
         return()
     endif()
 
